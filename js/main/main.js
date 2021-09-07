@@ -72,6 +72,7 @@ function layDuLieu() {
     var chucVu = getELE("chucvu").value;
     var gioLam = getELE("gioLam").value;
 
+
     // validation
     var isValid = true;
     if (getELE("tknv").disabled != true) {
@@ -160,6 +161,8 @@ function xemChiTiet(taiKhoan) {
     getELE("luongCB").value = nv.luongCB;
     getELE("chucvu").value = nv.chucVu;
     getELE("gioLam").value = nv.gioLam;
+
+    getELE("btnThemNV").style.display = "none";
 }
 
 // cập nhật
